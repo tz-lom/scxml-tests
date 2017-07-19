@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" binding="early" xmlns:qt="http://www.qt.io/2015/02/scxml-ext" name="subchart" qt:editorversion="4.3.1">
+    <state id="C">
+        <qt:editorinfo scenegeometry="205.78;82.31;145.78;32.31;147;104" geometry="205.78;82.31;-60;-50;147;104"/>
+        <transition type="external" event="ev1" target="D">
+            <qt:editorinfo startTargetFactors="31.22;90.83" movePoint="-28.81;0" endTargetFactors="28.65;34.04"/>
+        </transition>
+        <onentry>
+            <log label="pew"/>
+        </onentry>
+    </state>
+    <state id="D">
+        <qt:editorinfo scenegeometry="212.28;299.40;152.28;249.40;134;100" geometry="212.28;299.40;-60;-50;134;100"/>
+        <transition type="external" event="ev2" target="C">
+            <qt:editorinfo startTargetFactors="77.94;12.93" endTargetFactors="75.42;88.33"/>
+        </transition>
+        <onentry>
+            <log label="ololo"/>
+        </onentry>
+    </state>
+</scxml>
