@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-    engine.load("c:\\Users\\tz-lom\\Documents\\SCXMLtests\\test2\\main.qml");
+    engine.load("qrc:/main.qml");
     if (engine.rootObjects().isEmpty())
         return -1;
 

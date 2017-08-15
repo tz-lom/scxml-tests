@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" binding="early" xmlns:qt="http://www.qt.io/2015/02/scxml-ext" name="statechart" qt:editorversion="4.3.1">
     <state id="A">
-        <qt:editorinfo scenegeometry="221.09;141.07;136.97;75.66;419.12;430.41" geometry="221.09;141.07;-84.12;-65.41;419.12;430.41"/>
+        <qt:editorinfo geometry="221.09;141.07;-84.12;-65.41;419.12;430.41" scenegeometry="221.09;141.07;136.97;75.66;419.12;430.41"/>
         <transition type="external" event="ev2" target="B">
-            <qt:editorinfo startTargetFactors="97.93;42.40" movePoint="7.39;0.80" endTargetFactors="10.24;39.10"/>
+            <qt:editorinfo endTargetFactors="10.24;39.10" startTargetFactors="97.93;42.40" movePoint="7.39;0.80"/>
         </transition>
-        <invoke src="subchart.scxml" id="I"/>
+        <invoke src="file:subchart.scxml" id="I"/>
     </state>
     <state id="B">
-        <qt:editorinfo scenegeometry="717.13;137.87;657.13;87.87;407;406" geometry="717.13;137.87;-60;-50;407;406"/>
+        <qt:editorinfo geometry="717.13;137.87;-60;-50;407;406" scenegeometry="717.13;137.87;657.13;87.87;407;406"/>
         <transition type="external" event="ev3" target="A">
-            <qt:editorinfo startTargetFactors="3.31;65.53" movePoint="17.49;-22.64" endTargetFactors="96.55;64.65"/>
+            <qt:editorinfo endTargetFactors="96.55;64.65" startTargetFactors="3.31;65.53" movePoint="17.49;-22.64"/>
         </transition>
     </state>
 </scxml>

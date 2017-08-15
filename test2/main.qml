@@ -14,8 +14,7 @@ Window {
 
     StateMachineLoader {
         id: scxmlLoader
-        source: //'file:///C:/Users/tz-lom/Documents/SCXMLtests/test2/statechart.scxml'
-            "statechart.scxml"
+        source: "statechart.scxml"
     }
 
     onStateMachineChanged: {
